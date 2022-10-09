@@ -1,0 +1,17 @@
+@mixin flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+@mixin commonCode ($hover,$color) {
+    color: $color;
+    font-size: 3rem + 1rem;
+    letter-spacing: 1rem;
+
+    &:hover{
+        color: $hover;
+    }
+}

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 255, 170);
+}
+.main-header h1 {
+  color: red;
+  font-size: 4rem;
+  letter-spacing: 1rem;
+}
+.main-header h1:hover {
+  color: yellow;
+}
+.main-header h1::after {
+  content: "s";
+}
+.main-header p {
+  color: yellow;
+  font-size: 4rem;
+  letter-spacing: 1rem;
+}
+.main-header p:hover {
+  color: red;
+}/*# sourceMappingURL=main.css.map */
